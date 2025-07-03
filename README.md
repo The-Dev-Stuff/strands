@@ -41,7 +41,9 @@ uvicorn server:app --reload
 # Sample curl request to the agent
 curl --location 'http://localhost:8000/chat' \
 --header 'Content-Type: application/json' \
---data '{"prompt": "What is today'\''s date and what is 4 + 9? Also, tell me what tools you used to figure this out and your thought process."}'
+--data '{
+    "prompt": "What is today'\''s date and what is 4 + 9? Also, tell me what tools you used to figure this out and tell me your thought process."
+}'
 ```
 
 Sample interaction
