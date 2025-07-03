@@ -40,7 +40,8 @@ model = OpenAIModel(
 
 agent = Agent(
     model=model,
-    tools=[calculator, current_time, python_repl, letter_counter]
+    tools=[calculator, current_time, python_repl, letter_counter],
+    callback_handler=None # The default callback handler will print the agent's output to the console.
 )
 
 # Asking the agent to complete a few tasks, it will use the available tools.

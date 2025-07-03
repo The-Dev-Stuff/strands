@@ -50,3 +50,4 @@ prompt_toolkit~=3.0.51
 requests~=2.32.4
 python-multipart~=0.0.20
 pip~=24.2
+fastapi~=0.115.14
