@@ -9,8 +9,9 @@ This sample agent uses tools to complete tasks.
 - [ ] Short term memory
 - [ ] Long term memory
 - [ ] Logging reasoning
+- [ ] Add MCP
 - [ ] Agent to Agent communication (A2A) with pause + resume
-- [ ] Expose agent as a web service
+- [ ] Expose agent as a web service with authentication
 
 
 ## Setup the .venv and install dependencies
