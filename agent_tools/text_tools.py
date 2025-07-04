@@ -1,6 +1,5 @@
 from strands import tool
 
-
 # Defining a custom tool / a function the agent can use.
 @tool
 def letter_counter(word: str, letter: str) -> int:
